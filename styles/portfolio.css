@@ -7,7 +7,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 .nav-title {
     font-weight: 800;
@@ -36,6 +36,23 @@ nav li {
     background-color: orangered;
     text-align: center;
 }
+.btn-contact {
+    color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    padding: 5px 5px 30px;
+    height: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.header {
+    background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
 /* banner styles */
 
 .banner {
@@ -58,5 +75,5 @@ nav li {
     color: #757575;
     font-weight: 500;
     font-size: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
